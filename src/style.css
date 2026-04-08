@@ -19,7 +19,8 @@
 }
 
 .search-form--big {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .bars {
@@ -75,10 +76,6 @@
 }
 
 .search-form__input:focus {
-  font-weight: 900;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(246, 246, 247, 1) 100%
-  );
+  font-weight: 800;
+  background-color: rgba(246, 246, 247, 1);
 }
